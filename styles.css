@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+html {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+body {
+	margin: 50px auto 50px;
+	min-width: 768px;
+	max-width: 1024px;
+    text-decoration: none;
+}
+header{
+    color:navy;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+figure {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+aside {
+    border: solid 4px red;
+    color: bisque;
+    font-size: 20px;
+    display: flex;
+    background-color:black;
+    justify-content:center;
+    flex-wrap:wrap;
+    text-decoration: none;
+}
